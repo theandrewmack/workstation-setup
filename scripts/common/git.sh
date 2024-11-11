@@ -1,6 +1,8 @@
 echo
-echo "Installing Git and associated tools"
-brew install git
+# echo "Installing Git and associated tools"
+if ! which git >/dev/null; then
+    brew install git
+fi
 
 echo
 echo "Setting global Git configurations"
