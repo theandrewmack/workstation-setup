@@ -76,15 +76,6 @@ To install any of these, add them as arguments to `$> setup.sh`. Examples:
 ./setup.sh golang docker kubernetes cloud-foundry terraform concourse
 ```
 
-## Analytics
-
-The tool will send anonymous user data to our Google Analytics account, so we can see what command line arguments are popular.  You can disable this:
-```
-# Remove unnecessary languages when running command
-SKIP_ANALYTICS=1 ./setup.sh java ruby node golang c docker
-```
-This will also disable brew's [data collection](https://github.com/Homebrew/brew/blob/master/docs/Analytics.md).
-
 ## Having problems?
 
 If you're having problems using the setup script, please let us know by [opening an issue](https://github.com/pivotal/workstation-setup/issues/new).

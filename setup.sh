@@ -5,9 +5,6 @@
 # Arguments:
 #   - a list of components to install, see scripts/opt-in/ for valid options
 #
-# Environment variables:
-#   - SKIP_ANALYTICS:  Set this to 1 to not send usage data to our Google Analytics account
-#
 
 # Fail immediately if any errors occur
 set -e
